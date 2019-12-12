@@ -37,3 +37,41 @@
   width: 100%;
   height: 2.75px;
 }
+
+/* menu dropdown */
+
+.mobile-drop-down-nav {
+  z-index: 2;
+  width: 90%;
+  background-color: white;
+  position: absolute;
+  top: 75px;
+  left: 10; 
+  right: 0;
+  height: 65px;
+  padding: 10px;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: flex-end; */
+}
+
+.mobile-drop-down-nav ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.mobile-drop-down-nav li {
+  padding: 10px;
+}
+
+.mobile-drop-down-nav a {
+  text-decoration: none;
+  color: black;
+}
+
+/* .hm-header-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */

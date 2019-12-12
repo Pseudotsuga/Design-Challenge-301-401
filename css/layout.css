@@ -20,12 +20,6 @@ header {
   align-items: center;
 }
 
-.hm-header-menu {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .ham-nav {
   display: flex;
   align-items: center;
