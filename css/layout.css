@@ -1,0 +1,50 @@
+body {
+
+}
+
+header {
+  width: 90%;
+  position: absolute;
+  top: 0;
+  left: 0; 
+  right: 0;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  height: 65px;
+  padding: 10px;
+}
+
+.hm-header-logo {
+  display: flex;
+  align-items: center;
+}
+
+.hm-header-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ham-nav {
+  width: 35px;
+  height: 32px;
+  border: solid 1px red;
+  padding: 8px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.ham-nav img {
+  width: 100%;
+  height: 2.75px;
+}
+
+.nav {
+  display: flex;
+
+}
+
+
