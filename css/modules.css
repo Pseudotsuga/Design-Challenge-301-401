@@ -38,7 +38,7 @@
   height: 2.75px;
 }
 
-/* menu dropdown */
+/* menu dropdown .mobile-drop-down-nav */
 
 .mobile-drop-down-nav {
   z-index: 2;
@@ -48,8 +48,6 @@
   top: 75px;
   left: 10; 
   right: 0;
-  height: 65px;
-  padding: 10px;
   /* display: flex;
   flex-direction: column;
   justify-content: flex-end; */
@@ -59,10 +57,14 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  width: 100%;
 }
 
 .mobile-drop-down-nav li {
   padding: 10px;
+  width: 100%;
+  text-align: end;
+
 }
 
 .mobile-drop-down-nav a {
