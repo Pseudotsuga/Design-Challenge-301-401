@@ -1,0 +1,58 @@
+body {
+
+}
+
+header {
+  width: 90%;
+  position: absolute;
+  top: 0;
+  left: 0; 
+  right: 0;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  height: 65px;
+  padding: 10px;
+}
+
+.hm-header-logo {
+  display: flex;
+  align-items: center;
+}
+
+.ham-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hm-top {
+  width: 100%;
+  height: 230px;
+  margin-top: 40px;
+  background-image: url(../images/main-image-300x105.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+
+.hm-top div {
+  padding: 0px 20px;
+  padding-top: 20px;
+}
+
+.hm-top p {
+  margin-top: 20px;
+}
+
+
