@@ -49,8 +49,8 @@ main {
 }
 
 .hm-top div {
-  padding: 0px 20px;
-  padding-top: 20px;
+  margin-top: 20px;
+  padding: 20px 20px 0;
 }
 
 .hm-top p {
@@ -156,6 +156,8 @@ main {
   margin: 15px 0;
   padding: 10px;
   font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  color: black;
 }
 
 #box-border{
@@ -203,6 +205,7 @@ main {
 
 .hm-content-mid-2 {
   padding: 0 30px;
+  margin-top: 20px;
 }
 
 .hm-reviews {
@@ -260,6 +263,8 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  margin-top: 40px;
 }
 
 .footer-top {
@@ -299,4 +304,30 @@ footer {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-weight: 600;
+}
+
+.footer-bottom {
+  background-color: #272121;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  color: white;
+  width: 100%;
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  box-sizing: border-box;
+}
+
+.footer-bottom div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-bottom div > a {
+  padding-left: 10px;
+  color: white;
+  text-decoration: none;
 }

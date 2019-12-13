@@ -4,7 +4,7 @@
   .ham-nav-closed {
     width: 35px;
     height: 32px;
-    border: solid 1px red;
+    border: solid 1px #CE271B;
     padding: 8px;
     border-radius: 5px;
     display: flex;
