@@ -93,3 +93,39 @@
   }
 }
 
+/* homepage buttons */
+
+.hm-grey-icon-button {
+  height: 36px;
+  width: 150px;
+  padding: 5px 0;
+  color: rgb(255, 255, 255);
+  background-color: #727370;
+  box-sizing: border-box;
+  text-transform: none;
+  box-shadow: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+
+#hm-white-submit-button {
+  height: 45px;
+  width: 80%;
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-family: "Open Sans";
+  font-weight: bold;
+  color: rgb(51, 51, 51);
+  text-transform: none;
+  box-shadow: none;
+  line-height: 1em;
+  background-color: rgb(255, 255, 255) !important;
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+  background-image: none !important;
+  border: none;
+}

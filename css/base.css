@@ -13,4 +13,14 @@ header a {
   text-decoration: none;
 }
 
+h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  line-height: 26px;
+}
 
