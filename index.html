@@ -24,7 +24,7 @@
         <img src="./images/Line.png" alt="">
       </div>
     </div>
-    <div class="header-menu">
+    <div class="header-menu hidden">
       <ul class="nav">
         <li><a href="index.html">HOME</a></li>
         <li><a href="./pages/101">TRAVEL JACKETS 101</a></li>
@@ -49,7 +49,11 @@
               <p>People have been travel since the beginning of time. The nature of this activity for every individual is entirely different. Some people like traveling for...</p>
               <p>There are countless other reasons why people visit different places. People in different parts of the world usually travel...</p>
             </div>
-            <button><img src="./images/btn.png" alt="finger point icon">Read More</button>
+            <div class="button-container">
+              <div>
+                <a class="hm-grey-icon-button"><img src="./images/btn.png" alt="finger point icon">Read More</a>
+              </div>
+            </div>
           </div>
       </div>
       <div class="hm-buying" id="hm-newsletter">
@@ -59,7 +63,7 @@
           <p>Don't miss out on regular updates, contests and giveaways.</p>
           <h3>SIGN UP TO OUR NEWSLETTER TODAY!</h3>
           <input type="text" id="email" placeholder="Enter your email..." name="email">
-          <button>SUBMIT</button>
+          <button id="hm-white-submit-button">SUBMIT</button>
         </div>
       </div>
       <div class="hm-buying hm-buying-sides">
@@ -70,30 +74,36 @@
             <p>We all need a good travel jacket to accompany us on a vacation or an adventure trip. Although, we love cloudy weather or a warm sunny morning with a little...</p>
             <p>Whether it’s the Italian rain and snow or the freezing weather of Netherlands, there is nothing like a good travel jacket...</p>
           </div>
-          <button><img src="./images/btn.png" alt="finger point icon">Read More</button>
+          <div class="button-container">
+            <div>
+              <a class="hm-grey-icon-button"><img src="./images/btn.png" alt="finger point icon">Read More</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+    <div id="hm-review-heading">
+      <h2>PRODUCT</h2>
+      <h2>REVIEWS</h2>
+    </div>
     <div class="hm-content-mid-2">
-      <h2>PRODUCT REVIEWS</h2>
       <div class="hm-reviews">
         <img src="./images/Wearing-Jacket-300x200.jpg" alt="women in red jacket">
-        <h2>BAUBAX BOMBER TRAVEL JACKET REVIEW</h2>
+        <h2><a href="">BAUBAX BOMBER TRAVEL JACKET REVIEW</a></h2>
         <div>
           <div>
-              <p>If traveling is a significant part of your job description, then you must be familiar with traveling inconvenience that comes along with it. Long traveling hours, extra luggage, the safety of digital gadgets, headache...
-            </div>
-            <div>
-              <p>To help you with that, Baubax has taken the initiative to design an excellent...</p>
-            </p>
+            <p>If traveling is a significant part of your job description, then you must be familiar with traveling inconvenience that comes along with it. Long traveling hours, extra luggage, the safety of digital gadgets, headache...
+          </div>
+          <div>
+            <p>To help you with that, Baubax has taken the initiative to design an excellent...</p>
           </div>
         </div>
-        <a href="">
-          <div>
+        <div class="hm-review-button">
+          <a href="http://">
             <div><img src="./images/share-btn.png" alt="share button"></div>
             <div><p>Read more</p></div>
-          </div>
-        </a>
+          </a>
+        </div>
       </div>
       <div class="hm-reviews">
         <img src="./images/Rain-Jacket-300x202.jpg" alt="grey jacket on grey background">
@@ -106,12 +116,12 @@
             <p>Regardless of your holiday destination, packing for all essential items...</p>
           </div>
         </div>
-        <a href="">
-          <div>
+        <div class="hm-review-button">
+          <a href="http://">
             <div><img src="./images/share-btn.png" alt="share button"></div>
             <div><p>Read more</p></div>
+          </a>
           </div>
-        </a>
       </div>
       <div class="hm-reviews">
         <img src="./images/Woman-In-Jacket-300x202.jpg" alt="women in gray jacket">
@@ -124,15 +134,15 @@
             <p>Therefore, SCOTTeVEST is here with a smart and functional solution to all...</p>
           </div>
         </div>
-        <a href="">
-          <div>
+        <div class="hm-review-button">
+          <a href="http://">
             <div><img src="./images/share-btn.png" alt="share button"></div>
             <div><p>Read more</p></div>
-          </div>
-        </a>
+          </a>
+        </div>
       </div>
       <div class="hm-reviews">
-        <img src="./images/Multitask-Jacket-300x300.jpg" alt="women in black mulitast jacket">
+        <img src="./images/4-300x208.jpg" alt="women in black mulitast jacket">
         <h2>XY37 MEN TRAVEL JACKET HOODIE REVIEW</h2>
         <div>
           <div>
@@ -142,28 +152,34 @@
             <p>Many travel experts believe that many people confuse their destination...</p>
           </div>
         </div>
-        <a href="">
-          <div>
-            <div><img src="./images/share-btn.png" alt="share button"></div>
-            <div><p>Read more</p></div>
+        <div class="hm-review-button">
+            <a href="http://">
+              <div><img src="./images/share-btn.png" alt="share button"></div>
+              <div><p>Read more</p></div>
+            </a>
           </div>
-        </a>
       </div>
     </div>
   </main>
   <footer>
-    <div id="footer-top">
+    <div class="footer-top">
       <h2>Still unsure where to start?</h2>
       <button>START HERE</button>
     </div>
-    <div id="footer-bottom">
+    <div class="footer-bottom">
       <div>
-        <a href=""><p>Privacy</p></a>
-        <a href=""><p>Disclaimer</p></a>
-        <a href=""><p>Contact</p></a>
+        <a href="">Privacy</a>
+        <a href="">Disclaimer</a>
+        <a href="">Contact</a>
       </div>
       <p>Copyright 2018 by GetTravelRig.com</p>
     </div>
   </footer>
 </body>
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+<script src="./scripts/app.js"></script>
+
 </html>

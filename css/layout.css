@@ -42,6 +42,7 @@ main {
   background-image: url(../images/main-image-300x105.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: 50% 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -49,13 +50,17 @@ main {
 }
 
 .hm-top div {
-  padding: 0px 20px;
-  padding-top: 20px;
+  margin-top: 20px;
+  padding: 20px 20px 0;
 }
 
 .hm-top p {
   margin-top: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
 }
+
+/* buying guide section */
 
 .hm-content-mid-1 {
   margin: 30px 0;
@@ -92,6 +97,28 @@ main {
   margin-top: 20px;
 }
 
+.hm-buying-sides > div > div > p {
+  font-size: 14px;
+}
+
+.button-container {
+  position: relative;
+  margin-top: 40px;
+}
+
+.button-container div {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button-container img {
+  position: absolute;
+  left: 10px;
+}
+
+
 /* buying section middle newsletter box */
 
 #hm-newsletter {
@@ -107,6 +134,7 @@ main {
   margin: 30px 0;
   font-size: 36px;
   font-family: 'Playball', cursive;
+  font-weight: 400;
 }
 
 #hm-newsletter p {
@@ -129,24 +157,8 @@ main {
   margin: 15px 0;
   padding: 10px;
   font-size: 16px;
-}
-
-#hm-newsletter button {
-  height: 45px;
-  width: 80%;
-  margin-bottom: 40px;
-  font-size: 16px;
-  font-family: "Open Sans";
-  font-weight: bold;
-  color: rgb(51, 51, 51);
-  text-transform: none;
-  box-shadow: none;
-  line-height: 1em;
-  background-color: rgb(255, 255, 255) !important;
-  padding-top: 15px !important;
-  padding-bottom: 15px !important;
-  background-image: none !important;
-  border: none;
+  font-family: "Open Sans", sans-serif;
+  color: black;
 }
 
 #box-border{
@@ -164,7 +176,159 @@ main {
   content: '';
   border: solid 1px black;
   width: 100%;
-  height: 110%;
+  height: 379px;
   position: absolute;
   top: -35px;
+}
+
+/* product review */
+/* heading */
+#hm-review-heading {
+  width: 100%;
+  height: 85px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 30px;
+}
+
+#hm-review-heading > h2:nth-of-type(1) {
+  font-weight: 400;
+}
+
+#hm-review-heading > h2:nth-of-type(2) {
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+/* review boxes */
+
+.hm-content-mid-2 {
+  padding: 0 30px;
+  margin-top: 20px;
+}
+
+.hm-reviews {
+  width: 100%;
+  margin: 0 0 40px;
+}
+
+.hm-reviews > img:nth-of-type(1) {
+  width: 100%;
+}
+
+.hm-reviews h2 {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.hm-reviews h2 a {
+  text-decoration: none;
+  color: black;
+}
+
+.hm-reviews > div > div:nth-of-type(2) p {
+  margin: 20px 0 25px;
+}
+
+.hm-review-button a {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  color: black;
+}
+
+.hm-review-button > a > div:nth-of-type(1) {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #727370;
+}
+
+.hm-review-button > a > div:nth-of-type(2) {
+  height: 40px;
+  width: 105px;
+  margin: 0 0 0 5px;
+  box-sizing: border-box;
+  border: solid 1px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.footer-top {
+  height: 200px;
+  width: 100%;
+  background-image: url(../images/start-here.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-top h2 {
+  margin: 20px 0;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.footer-top button {
+  height: 36px;
+  width: 130px;
+  padding: 5px 0;
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  border: none;
+  box-sizing: border-box;
+  text-transform: none;
+  box-shadow: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.footer-bottom {
+  background-color: #272121;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  color: white;
+  width: 100%;
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  box-sizing: border-box;
+}
+
+.footer-bottom div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-bottom div > a {
+  padding-left: 10px;
+  color: white;
+  text-decoration: none;
 }
