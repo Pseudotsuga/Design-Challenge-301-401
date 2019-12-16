@@ -64,7 +64,7 @@ main{
   padding: 0px 14%;
   display: flex;
   flex-direction: row;
-  margin-top: 6%
+  margin-top: 3%
 }
 
 /* Article Subsection */
@@ -80,10 +80,30 @@ article{
   margin-bottom: 5.2%;
   color: #333;
 }
+
+/* Aside Subsection */
 aside{
   width: 32%;
 }
 
+#search-form{
+  border: 1px solid #e9e9e9;
+  width: 100%;
+  height: auto;
+  background-color: #f6f6f6;
+
+}
+
+#search-form-input{
+  background-color: #f6f6f6;
+  width: 88%;
+  padding: 15px;
+}
+
+#search-form-button{
+  background-color: #f6f6f6;
+  width: 10%;
+}
 footer{
   width: 100%;
   padding: 20px 5%;
