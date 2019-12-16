@@ -8,22 +8,48 @@ a{
   color: black;
 }
 
+/* Layout Rulesets */
+body{
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
 /* Keep all header styling organized here */
 header{
-  width: 80%;
+  width: 100%;
   background-color: #8c1515;
-  padding-top: 20px;
-  padding-bottom: 10px;
+  padding: 20px 5% 0px;
+  display: flex;
+  flex-flow: row wrap;
 }
 
-#logo-container img{
-  min-width: 200px;
+#logo-container{
+  width: fit-content;
+}
+
+#logo-container > img{
+  max-width: 200px;
   height: auto;
 }
 
+nav{ 
+  width: fit-content;
+}
+
+.nav-item{
+  padding: 30px 15px 15px
+}
+#path-to-page{
+  width:100%;
+  background: #f6f6f6;
+  border-top: 1px solid #e8e8e8;
+  border-bottom: 1px solid #e8e8e8;
+  padding: 15px 0;
+}
 /* Main Styling Begins Below */
 main{
   width: 100%;
+  padding: 0px 5%;
 }
 
 article{
@@ -32,4 +58,22 @@ article{
 
 aside{
   width: 20%;
+}
+
+footer{
+  width: 100%;
+  padding: 20px 5%;
+  background-color: #272121;
+}
+
+#footer-links-ul{
+  display: flex;
+  flex-flow: row nowrap;
+  padding-bottom: 5px;
+}
+
+footer *{
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.95em;
 }
